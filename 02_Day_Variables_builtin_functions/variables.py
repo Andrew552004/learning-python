@@ -4,7 +4,7 @@ Description: This Python file contains exercises designed to practice fundamenta
              "30 Days of Python Programming" challenge.
 
 Author: Andres Vanegas
-Date: March 2, 2025
+Date: 03/02/2025
 """
 
 # Day 2: 30 Days of Python Programming - First Part of Exercises
