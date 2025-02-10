@@ -5,7 +5,7 @@ Description: This Python file contains exercises designed to practice fundamenta
 
 Author: Andres Vanegas
 Date: 04/02/2025
-Last actualization: 06/02/2025
+Last actualization: 10/02/2025
 """
 
 
@@ -111,3 +111,33 @@ print(type('10') == type(10))
 
 # === Check if int(9.8) is equal to 10 ===
 print(f"Is int(9.8) equal to 10? {int(9.8) == 10}")
+
+# === Check your weekly earning ===
+hours = float(input("Enter the number of hours worked in the week: "))
+rate = float(input("Enter the rate per hour: "))
+payment = hours * rate
+print(f"Your weekly earning is: {payment}")
+
+# === Calculate the your age in seconds "literally" ===
+years = int(input("Enter the number of years you have lived: ")) < 100
+second_conversion = years * 365 * 24 * 60 * 60
+
+#=== Script to display the following table ===
+"""
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
+"""
+
+M1 = [[1,1,1,1,1], 
+      [2,1,2,4,8],
+      [3,1,3,9,27],
+      [4,1,4,16,64], 
+      [5,1,5,25,125]]
+for row in M1:
+    print(row)
+
+for i in range(1, 6):
+    print(f"{i} 1 {i} {i**2} {i**3}")
